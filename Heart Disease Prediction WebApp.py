@@ -45,7 +45,7 @@ def main():
     restecg = st.text_input('Resting ECG Result (0–2)')
     thalach = st.text_input('Maximum Heart Rate Achieved')
     exang = st.text_input('Exercise Induced Angina (1 = yes; 0 = no)')
-    oldpeak = st.text_input('ST Depression Induced by Exercise')
+    oldpeak = st.text_input('ST Depression Induced by Exercise (0.0-9.9)')
     slope = st.text_input('Slope of Peak Exercise ST Segment (0–2)')
     ca = st.text_input('Number of Major Vessels Colored by Fluoroscopy (0–3)')
     thal = st.text_input('Thalassemia (1 = normal; 2 = fixed defect; 3 = reversible defect)')
